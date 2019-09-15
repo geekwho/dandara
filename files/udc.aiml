@@ -20,6 +20,14 @@
 <!--  http://www.alicebot.org -->
 <!--  -->
 
+<category>
+    <pattern>Hello bot</pattern>
+    <template>Hello world</template>
+</category>
+
+
+
+
 <category><pattern>*</pattern>
 <template><srai>UDC</srai></template>
 </category>
