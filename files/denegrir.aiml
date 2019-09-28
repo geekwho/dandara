@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
-<category>
-    <pattern>denegrir</pattern>
-<template>
-        oiiiiiiii
-    <button><text>I like Brie ð</text><postback>I LIKE BRIE CHEESE</postback></button><button><text>I like Cheddar ð</text><postback>I LIKE CHEDDAR CHEESE</postback></button><button><text>I like Gouda</text><postback>I LIKE GOUDA CHEESE</postback></button>
-    <button><text>I like Swiss ð</text><postback>I LIKE SWISS CHEESE</postback></button><button><text>Other ð</text><postback>GO TO NEXT THING</postback></button><button><text>I don't like cheese ð°</text><postback>GO TO NEXT THING</postback></button>
-</template>
 
+<category>
+    <pattern> joga um dado </pattern>
+    <template> 
+    <random>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </random>
+    </template>
 </category>
+
+
+
+
 </aiml>
