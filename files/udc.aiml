@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-    
-oii
-<button>
-    <text>Dandara denegrir</text>
-    <postback>Dandara denegrir</postback>
-</button>
-
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
 </aiml>

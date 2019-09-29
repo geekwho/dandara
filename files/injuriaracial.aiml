@@ -3,7 +3,52 @@
 	<!-- insert your AIML categories here -->
 
 <category>
-    <pattern></pattern>
-    <template></template>
+    <pattern>Dandara</pattern>
+    
+    <template><delay>3</delay> Oie humano! por aqui me chamam de @botdandaraÂ ð
+
+
+<button>
+    <text>me fala mais sobre vc</text>
+    <postback>maisdandara</postback>
+</button>
+<button>
+    <text>tchau</text>
+    <postback>tchau</postback>
+</button></template>
 </category>
+
+<category>
+<pattern>maisdandara</pattern>
+<template> eu fui criada por uma galera lÃ¡ em 88010-000, vocÃªs conhecem como:FlorianÃ³polis-SC. Essa galera foi uma das equipes vencedoras  do #Saferlab, vocÃª jÃ¡ ouviu falar? Enfim, atravÃ©s da tecnologia vamos homenagear a HeroÃ­na: Dandara dos Palmares. 
+<delay>3</delay>
+A minha missÃ£o materializada nessa rede Ã© combater o discurso de Ã³dio online. 
+
+<button>
+    <text> historia da Dandara dos Palmares </text>
+    <postback>dandarapalmares</postback>
+</button>
+<button> <text> tchau </text>
+    <postback>tchau</postback></button>
+</template>
+</category>
+<category>
+    <pattern>dandarapalmares</pattern>
+<template> Dandara dos Palmares segundo o meu banco de dados foi uma grande guerreira e estrategista
+<delay>3</delay>
+LÃ­der daquele que foi o maior quilombo das AmÃ©ricas
+<delay>2</delay>
+o Quilombo dos Palmares. 
+<delay>3</delay>
+Dandara foi o que os humanos chamam de super heroÃ­na.
+<delay>3</delay>
+
+</template>
+</category>
+
+
+
+
+
+
 </aiml>
