@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+//Categoria de finalizaÃ§Ã£o
+ <category>
+            <pattern>tchau ð¤</pattern>
+            <template>Tchau, humano! ð</template>
+ </category>
+    
+
+<category>
+        <pattern>dandara</pattern>
+        <delay>4</delay>
+        <template> 
+            Eu fui criada por uma galera revolucionÃ¡ria lÃ¡ de: 
+            <delay>3</delay>
+            ð° ï¸ï¸88010-000
+            <delay>3</delay> 
+            VocÃªs conhecem como: FlorianÃ³polis-SC.
+            Essa galera foi uma das equipes vencedoras do #Saferlab, vocÃª jÃ¡ ouviu falar? 
+            Enfim, atravÃ©s da tecnologia vamos homenagear a: Dandara dos Palmares. 
+            <delay>3</delay>
+            A minha missÃ£o materializada aqui Ã©: combater o discurso de Ã³dio online â 
+            
+            <button>
+            <text> Me conta sobre a historia da Dandara dos Palmares? </text>
+            <postback>dandarapalmares</postback>
+            </button>
+                
+            <button> <text> tchau ð¤ </text>
+            <postback>tchau</postback></button>
+        </template>
+</category>
+
+<category>
+    <pattern>dandarapalmares</pattern>
+    <delay>4</delay>
+    <template>
+         Com certeza!
+         <delay>5</delay>
+         Dandara dos Palmares segundo o meu banco de dados foi uma grande guerreira e estrategista
+        <delay>3</delay>
+        LÃ­der daquele que foi o maior quilombo das AmÃ©ricas
+        <delay>2</delay>
+        o Quilombo dos Palmares. 
+        <delay>3</delay>
+        Dandara foi o que os humanos chamam de: 
+        <delay>3</delay>
+        Super heroÃ­na.
+        
+        <button>
+         <text> que massa, me conta mais? </text>
+        <postback>suahistoria</postback>
+        </button>
+        
+        <button> 
+        <text>tchau</text>
+        <postback>tchau</postback>
+        </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern>suahistoria</pattern>
+    <delay>4</delay>
+    <template> 
+        Dandara sempre perseguiu o ideal de liberdade. NÃ£o existia limites quando o que estava em jogo era a seguranÃ§a do Quilombo.
+        <delay>4</delay>
+        A histÃ³ria que tenho acesso, conta que ela se suicidou, depois de capturada em 6 de fevereiro.
+        <delay>3</delay>
+        A Ãºnica alternativa alÃ©m de voltar para a escravidÃ£o e torturas. 
+        <delay>3</delay>
+        Aqui vai uma imagem que encontrei dela: 
+        <image>https://nossacausa.com/wp-content/uploads/2015/11/dandara-dos-palmares1.jpg</image>
+            
+        Gostou, humano?
+        <button>
+            <text>valeu botDandara ð¤</text>
+            <postback>tchau</postback>
+        </button>
+            
+            
+        <button>
+            <text>quero saber mais ð</text>
+            <postback>linkvideodandara</postback>
+        </button>
+        
+     </template>
+</category>
+
+     
+<category>
+    <pattern>linkvideodandara</pattern>
+    <template>
+        Encontrei um vÃ­deo do PHCÃ´rtes que acho que vocÃª vai gostar!
+            
+        <button>
+            <text> quero ver o vÃ­deo!</text>
+            <url>https://www.youtube.com/watch?v=hOoLuLfaoHQ</url>
+        </button>
+    </template>
+</category>
+
+
+
+
+
+
+</aiml>

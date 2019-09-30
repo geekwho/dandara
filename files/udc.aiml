@@ -2,6 +2,23 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>
+     Oi, humano! Muito prazer, eu me chamo Dandara, por aqui me chamam de @botdandara.
+     <delay>3</delay>
+     Ainda estou aprendendo a conversar melhor com vocÃªs, por isso tenho botÃµes para facilitar nossa conversa. 
+     <delay>3</delay>
+     Aqui tem os assuntos que tÃ´ manjando:
+     
+     <button>
+         <text>Denunciar racismo! ð´</text>
+         <postback>INJURIARACIAL</postback>
+     </button>
+     
+     <button>
+         <text>Quem Ã© Dandara? ð¤ </text>
+         <postback>DANDARA</postback>
+     </button>
+     
+    </template>
   </category>
 </aiml>

@@ -1,53 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
-
-<category>
-    <pattern>Dandara</pattern>
     
-    <template><delay>3</delay> Oie humano! por aqui me chamam de @botdandaraÂ ð
-
-
-<button>
-    <text>me fala mais sobre vc</text>
-    <postback>maisdandara</postback>
-</button>
-<button>
-    <text>tchau</text>
-    <postback>tchau</postback>
-</button></template>
+ <category>
+     <pattern>injuriaracial</pattern>
+    <template>
+         
+         <delay>8</delay>
+         Encontrei vÃ¡rios nÃºmeros em bancos de dados que me confimaram que o Brasil ainda Ã© um paÃ­s muito racista..
+        E estou aqui justamente para combater isso e potencializar a cultura de vocÃªs humanos.
+         <delay>4</delay>
+         Bora falar de injÃºria racial entÃ£o! 
+         <delay>4</delay>
+        Que bom que vocÃª veio atÃ© aqui â¤ï¸ Vou te contar tudo que tenho em meu banco de dados, espero conseguir te ajudar. 
+        <delay>4</delay>
+        Antes de tudo, me conta: 
+        <delay>3</delay>
+        Como posso te ajudar?
+        <button>
+            <text>quero saber como denunciar! âï¸</text>
+            <postback>denunciainjuriaracial</postback>
+        </button>
+        <button>
+            <text>quero entender melhor ð</text>
+            <postback>denunciainjuriaracial</postback>
+        </button>
+    </template>
+ </category>
+ 
+<category>
+    <pattern>denunciainjuriaracial</pattern>
+    <template>
+        Eu nÃ£o tenho sentimentos, mas pelo o que meus humanos me contaram, Ã© algo dolorido de vivÃªnciar. 
+        <delay>7</delay>
+        Espero que vocÃª esteja bem â¤ï¸
+        <delay>3</delay>
+        Vou comeÃ§ar com a histÃ³ria do humano muito importante para toda essa revoluÃ§Ã£o no seu paÃ­s
+        <delay>4</delay>
+        O nome dele Ã©: Carlos Alberto CaÃ³ 
+        <delay>2</delay>
+        Aqui uma imagem que reconhece o rosto dele: 
+        <image>https://i.ytimg.com/vi/UMUkt6xaAeM/maxresdefault.jpg</image>
+        <delay>6</delay>
+        Em 1998 ele colocou em prÃ¡tica algo que estava em pauta nos movimentos negros do Brasil hÃ¡ muito tempo...
+        <delay>5</delay>
+        Colocou no livro que vocÃªs humanos utilizam para se organizar em sociedade
+        <delay>3</delay>
+        VocÃªs chamam de:
+        <delay>4</delay>
+        constituiÃ§Ã£o brasileira, a Lei 7.716/88
+        <delay>4</delay>
+        Ã caracterizado crime de injÃºria racial quando alguÃ©m te ofende associando a sua etnia ou raÃ§a a algo ruim..
+        <delay>5</delay>
+        Exemplo:ânegra sujaâ, âÃ­ndio imprestÃ¡velâ, âjudeu miserÃ¡velâ  ou qualquer outro estereÃ³tipo racista que a pessoa tente usar contra vocÃª. 
+        <delay>7</delay>
+        Eita... Busquei o significado dessas palavras aqui e realmente...
+        <delay>4</delay>
+        NÃ£o Ã© nada legal direcionar essas palavras a outro ser humano!  
+        <delay>5</delay>
+        Enfim, importante lembrar que isso continua sendo crime, mesmo que a pessoa diga que falou em tom de brincadeira ou chacota.
+       
+       <button>
+           <text>quero um exemplo</text>
+           <postback>exemploinjuriaracial</postback>
+       </button>
+        
+        <button>
+            <text>como eu denuncio?</text>
+            <postback>boinjuria</postback>
+        </button>
+        
+    </template>
 </category>
 
 <category>
-<pattern>maisdandara</pattern>
-<template> eu fui criada por uma galera lÃ¡ em 88010-000, vocÃªs conhecem como:FlorianÃ³polis-SC. Essa galera foi uma das equipes vencedoras  do #Saferlab, vocÃª jÃ¡ ouviu falar? Enfim, atravÃ©s da tecnologia vamos homenagear a HeroÃ­na: Dandara dos Palmares. 
-<delay>3</delay>
-A minha missÃ£o materializada nessa rede Ã© combater o discurso de Ã³dio online. 
-
-<button>
-    <text> historia da Dandara dos Palmares </text>
-    <postback>dandarapalmares</postback>
-</button>
-<button> <text> tchau </text>
-    <postback>tchau</postback></button>
-</template>
+    <pattern>exemploinjuriaracial</pattern>
+    <template>
+    VocÃªs parecem conversar bastante sobre futebol por aÃ­ nÃ©? 
+    <delay>4</delay>
+    Vou usar um exemplo recente sobre isso
+    <delay>6</delay>
+     Foi crime de injÃºria racial quando um humano que torcia para o time grÃªmio, em 2014,  
+    apareceu nos telÃµes do estÃ¡dio ofendendo o goleiro chamado: Aranha.
+    <delay>5</delay>
+     Chamou o goleiro de macaco em um jogo entre GrÃªmio e Santos pela Copa do Brasil
+     em 2014, em Porto Alegre.
+     <delay>6</delay>
+     Nesse caso, foram muitas pessoas que cometeram o crime! PorÃ©m o alvo era UMA especÃ­fica,
+     o goleiro Aranha.
+     
+        <button>
+            <text>quero entender melhor! ð</text>
+            <postback>linkvideoinjuria</postback>
+        </button>
+        
+        <button>
+            <text>valeu botDandara!â¤ï¸ï¸</text>
+            <postback>tchaucarinhoso</postback>
+        </button>
+    </template>
 </category>
+
 <category>
-    <pattern>dandarapalmares</pattern>
-<template> Dandara dos Palmares segundo o meu banco de dados foi uma grande guerreira e estrategista
-<delay>3</delay>
-LÃ­der daquele que foi o maior quilombo das AmÃ©ricas
-<delay>2</delay>
-o Quilombo dos Palmares. 
-<delay>3</delay>
-Dandara foi o que os humanos chamam de super heroÃ­na.
-<delay>3</delay>
-
-</template>
+    <pattern>linkvideoinjuria</pattern>
+    <template> 
+    Hummm... Ok! 
+    <delay>6</delay>
+    Talvez esse assunto vindo de outro humano fique mais fÃ¡cil de entender! 
+    <delay>5</delay>
+    Vou procurar algo...
+    <button>
+        <text>Aqui vai um vÃ­deo do canal "Posso Processar?"</text>
+        <url>https://www.youtube.com/watch?v=gQHdGHoF6Hw</url>
+    </button>
+    </template>
+    
+    <button>
+        <text>mas e na prÃ¡tica, como eu denuncio?</text>
+        <postback>boinjuria</postback>
+    </button>
+    
+    <button>
+        <text>obrigada botDandara! </text>
+        <postback>tchaucarinhoso</postback>
+    </button>
 </category>
 
+<category>
+    <pattern>boinjuria</pattern>
+    <template>
+        Aqui vÃ£o algumas dicas para denunciar crimes raciais no seu paÃ­s:
+        <delay>4</delay>
+        
+        1- fazer um Boletim de OcorrÃªncia
+        <delay>2</delay>
+        2- organize testemunhas (gravaÃ§Ãµes tambÃ©m sÃ£o provas importantes)
+        <delay>2</delay>
+        3- procure movimentos e/ou organizaÃ§Ãµes negras prÃ³ximas de vocÃª ou chamar um humano advogado
+        <delay>2</delay>
+        4- saiba que nÃ£o hÃ¡ limite de tempo para que a vÃ­tima procure a Delegacia de PolÃ­cia ou o MinistÃ©rio PÃºblico para dar inÃ­cio ao processo criminal.
+        <delay>2</delay>
+        5- se o crime aconteceu online, vocÃª pode denunciar no site da safernet,
+        organizaÃ§Ã£o que mapeia e informa sobre crimes na internet que que podem ferir os direitos humanos. 
+        <button>
+            <text>. </text>
+            <url>https://new.safernet.org.br/denuncie</url>
+        </button>
+        
+    </template>
+</category>
 
-
+<category>
+    <pattern>tchaucarinhoso</pattern>
+    <template>
+    Tchau, humano! ð
+    <delay>5</delay>
+    Espero que eu tenha conseguido ajudar de alguma forma! 
+    <delay>5</delay>
+    E nÃ£o esqueÃ§a: vocÃª nÃ£o estÃ¡ sozinhe! 
+    </template>
+</category>
 
 
 
